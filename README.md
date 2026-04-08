@@ -12,10 +12,10 @@
 NativePHP for Mobile lets you build truly native iOS and Android apps using PHP and Laravel. We believe PHP developers shouldn't need to learn Swift or Kotlin to ship a mobile app. Your Laravel application runs directly on the device with an embedded PHP runtime, giving you full access to native platform capabilities while writing the code you already know.
 
 - Native iOS and Android builds from a [single Laravel codebase](https://nativephp.com/docs/mobile/getting-started).
-- Embedded PHP runtime with [persistent mode](https://nativephp.com/docs/mobile/concepts/overview) for fast, long-lived execution.
-- Access to native device APIs through a flexible [plugin system](https://nativephp.com/docs/mobile/concepts/plugins).
-- [Background tasks](https://nativephp.com/docs/mobile/apis/background), queue workers, and scheduled jobs running on-device.
-- [Push notifications](https://nativephp.com/docs/mobile/apis/push-notifications) via APNs and FCM.
+- Embedded PHP runtime with persistent mode for fast, long-lived execution.
+- Access to native device APIs through a flexible [plugin system](https://nativephp.com/docs/mobile/3/plugins/introduction).
+- [Background tasks](https://nativephp.com/bundles/background-local), [queue workers](https://nativephp.com/docs/mobile/3/concepts/queues), and [scheduled jobs](https://nativephp.com/bundles/background-local) running on-device.
+- [Push notifications](https://nativephp.com/bundles/starter-kit) via APNs and FCM.
 - Hot reload for rapid development on simulators and physical devices.
 
 NativePHP for Mobile is accessible, powerful, and gives Laravel developers everything they need to go from idea to App Store.
